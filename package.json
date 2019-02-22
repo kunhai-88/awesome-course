@@ -13,6 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "antd": "^3.13.5",
     "gatsby": "^2.1.11",
     "gh-pages": "^2.0.1",
     "react": "^16.8.2",
