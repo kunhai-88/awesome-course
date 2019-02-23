@@ -2,6 +2,7 @@ import React from "react";
 import styles from './style.module.less';
 import logo from '../../static/logo.png';
 
+document.title = 'Awesome Course';
 
 export default () => (
   <header>
