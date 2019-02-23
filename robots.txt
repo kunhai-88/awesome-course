@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ifrontend-xyz.github.io/awesome-course/sitemap.xml
+Host: https://ifrontend-xyz.github.io
