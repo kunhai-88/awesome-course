@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://ifrontend-xyz.github.io/awesome-course/"
+    siteUrl: "https://ifrontend-xyz.github.io/awesome-course/",
+    title: 'Awesome Course'
   },
   plugins: [
     'gatsby-plugin-less',
