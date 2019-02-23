@@ -27,11 +27,9 @@ export default () => (
                   />
                 }
                 actions={[
-                  <span>
-                    <a href="https://study.163.com" target="_blank">
-                      <Icon type="link" /> 网易云课堂
-                    </a>
-                  </span>
+                  <a href="https://study.163.com" target="_blank">
+                    <Icon type="link" /> 网易云课堂
+                  </a>
                 ]}
               >
                 <Card.Meta title="李炎恢JavaScript教程 第一季" />
