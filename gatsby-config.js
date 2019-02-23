@@ -1,3 +1,9 @@
 module.exports = {
-  plugins: [`gatsby-plugin-less`],
-}
+  siteMetadata: {
+    siteUrl: "https://ifrontend-xyz.github.io/awesome-course/"
+  },
+  plugins: [
+    'gatsby-plugin-less',
+    'gatsby-plugin-robots-txt'
+  ]
+};
