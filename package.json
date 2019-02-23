@@ -15,7 +15,9 @@
   "dependencies": {
     "antd": "^3.13.5",
     "gatsby": "^2.1.11",
+    "gatsby-plugin-less": "^2.0.11",
     "gh-pages": "^2.0.1",
+    "less": "^3.9.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   },
