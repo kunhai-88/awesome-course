@@ -1,6 +1,9 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Layout, Card, Row, Col, Icon } from "antd";
+import Card from 'antd/lib/card';
+import Layout from 'antd/lib/layout';
+import Row from 'antd/lib/row';
+import Col from 'antd/lib/col';
 import HeaderBar from "../components/header";
 import styles from "./style.module.less";
 import Course from '../components/course'
@@ -30,7 +33,23 @@ export default () => (
           <Col span={8} />
         </Row>
       </Card>
-      <Card title="Jenkins" />
+      <Card title="Jenkins">
+        <Row gutter={16}>
+          <Col span={8}>
+            <Course
+              title="Jenkins 训练营：基础篇"
+              source="https://ke.qq.com"
+              sourceTitle="腾讯课堂"
+              link="https://ke.qq.com/course/265167#term_id=100312699"
+              cover="https://10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCwX4Spicz9sDfckP7wPuK01CL4Pq2LBATgylzu79tTz1a89mguuic5npOOWHicurqgTc/"
+            />
+          </Col>
+          <Col span={8} >
+
+          </Col>
+          <Col span={8} />
+        </Row>
+      </Card>
     </Content>
     <Footer className={styles.Footer}>Course ©2019 Created by Andy</Footer>
   </Layout>
