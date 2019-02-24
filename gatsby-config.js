@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-less`,
     `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-baidu-analytics`,
       options: {

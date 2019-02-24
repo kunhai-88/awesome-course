@@ -1,11 +1,13 @@
 import React from "react";
-import styles from './style.module.less';
-import logo from '../../static/logo.png';
+import styles from "./style.module.less";
+import logo from "../../static/logo.png";
 
-document.title = 'Awesome Course';
+if (typeof window !== `undefined`) {
+  window.document.title = "Awesome Course";
+}
 
 export default () => (
   <header>
-  <img className={styles.logo} src ={logo}  alt="course" />
+    <img className={styles.logo} src={logo} alt="course" />
   </header>
 );
