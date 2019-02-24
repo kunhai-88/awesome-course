@@ -7,3 +7,5 @@
 <h1 align="center">
    Awesome Course
 </h1>
+
+[收集优秀的视频课程](https://ifrontend-xyz.github.io/awesome-course/)
