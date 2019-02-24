@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import favicon from '../static/favicon.png';
 
 export default function HTML(props) {
   return (
@@ -8,7 +9,7 @@ export default function HTML(props) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <title>Awesome Course</title>
-        <link rel="shortcut icon" href="../static/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href={favicon} />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
