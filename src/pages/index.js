@@ -45,7 +45,13 @@ export default () => (
             />
           </Col>
           <Col span={8} >
-
+            <Course
+              title="Jenkins 训练营：带你玩转 Pipeline"
+              source="https://ke.qq.com"
+              sourceTitle="腾讯课堂"
+              link="https://ke.qq.com/course/252785#term_id=100298102"
+              cover="https://10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCr1RhCMbWGibOEq1nSTCQX6CFJIY69sDXppoVtaY5W1l4MIEGqZJq0iazwG4JORuHoY/"
+            />
           </Col>
           <Col span={8} />
         </Row>
