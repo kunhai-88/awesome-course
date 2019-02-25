@@ -17,20 +17,24 @@ export default compose(
   source,
   sourceTitle,
   cover,
+  link,
 }) => (
-    <Card
-      cover={
-        <img
-          alt={title}
-          src={cover}
-        />
-      }
-      actions={[
-        <a href={source} target="_blank">
-          <Icon type="link" /> {sourceTitle}
+    <a href={link} target="_blank">
+      <Card
+        cover={
+          <img
+            alt={title}
+            src={cover}
+          />
+        }
+        hoverable
+        actions={[
+          <a href={source} target="_blank">
+            <Icon type="link" /> {sourceTitle}
+          </a>
+        ]}
+      >
+        <Card.Meta title={title} />
+      </Card>
     </a>
-      ]}
-    >
-      <Card.Meta title={title} />
-    </Card>
 ));
