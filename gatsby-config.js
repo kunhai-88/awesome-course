@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/awesome-course',
   siteMetadata: {
     siteUrl: `https://ifrontend-xyz.github.io/awesome-course/`,
     title: 'Awesome Course',

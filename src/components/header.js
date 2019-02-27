@@ -7,7 +7,7 @@ import logo from "../../static/logo.png";
 // }
 
 export default () => (
-  <header>
+  <header className={styles.header}>
     <img className={styles.logo} src={logo} alt="course" />
   </header>
 );
