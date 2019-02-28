@@ -8,6 +8,6 @@ import logo from "../../static/logo.png";
 
 export default () => (
   <header className={styles.Headerbar}>
-    <img className={styles.Logo} src={logo} alt="course" />
+    <a href="https://ifrontend-xyz.github.io/awesome-course/"><img className={styles.Logo} src={logo} alt="course" /></a>
   </header>
 );
