@@ -16,6 +16,7 @@ export default compose(
   cover,
   link,
 }) => (
+    // eslint-disable-next-line
     <a href={link} target="_blank">
       <Card
         cover={
