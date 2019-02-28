@@ -1,13 +1,10 @@
 import React from 'react';
-import classNames from 'classnames';
 import {
   compose,
   setDisplayName,
 } from 'recompose';
 import Card from 'antd/lib/card';
 import Icon from 'antd/lib/icon';
-
-import styles from "./style.module.less";
 
 export default compose(
   setDisplayName(__filename),
