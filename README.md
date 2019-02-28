@@ -8,4 +8,4 @@
    Awesome Course
 </h1>
 
-[收集优秀的视频课程](https://ifrontend-xyz.github.io/awesome-course/)
+[收集优秀的视频课程](https://ifrontend-xyz.github.io/awesome-course/),主要涵盖前端技术(Javasctipt、React、Typescript等)，DevOps相关技术(Jenkien、Docker等).
