@@ -9,6 +9,6 @@ import logo from "../../static/logo.png";
 export default () => (
   <header className={styles.Headerbar}>
     <a href="https://ifrontend-xyz.github.io/awesome-course/"><img className={styles.Logo} src={logo} alt="course" /></a>
-    <a className={styles.AboutLink} href="https://ifrontend-xyz.github.io/awesome-course/">关于</a>
+    <a className={styles.AboutLink} href="https://ifrontend-xyz.github.io/awesome-course/about">关于</a>
   </header>
 );
