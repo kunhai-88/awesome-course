@@ -9,7 +9,7 @@ import Layout from '../components/layout';
 
 export default () => (
   <Layout>
-    <Card title="Javascript" className={styles.Column}>
+    <Card title="前端开发" className={styles.Column}>
       <Row gutter={16}>
         <Col span={8}>
           <Course
@@ -26,7 +26,7 @@ export default () => (
         <Col span={8} />
       </Row>
     </Card>
-    <Card title="Jenkins">
+    <Card title="DevOps">
       <Row gutter={16}>
         <Col span={8}>
           <Course
