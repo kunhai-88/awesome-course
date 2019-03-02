@@ -46,7 +46,16 @@ export default () => (
             cover="https://10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCr1RhCMbWGibOEq1nSTCQX6CFJIY69sDXppoVtaY5W1l4MIEGqZJq0iazwG4JORuHoY/"
           />
         </Col>
-        <Col span={8} />
+        <Col span={8} >
+          <Course
+            title="Docker入门"
+            source="https://www.imooc.com"
+            sourceTitle="慕课网"
+            link="https://www.imooc.com/learn/867"
+            cover="https://img4.mukewang.com/597e973600011a6e06000338-240-135.jpg"
+          />
+        </Col>
+        
       </Row>
     </Card>
   </Layout>
