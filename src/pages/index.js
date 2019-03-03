@@ -9,7 +9,7 @@ import Layout from '../components/layout';
 
 export default () => (
   <Layout>
-    <Card title="DevOps">
+    <Card title="DevOps" className={styles.Column}>
       <Row gutter={16}>
         <Col span={6}>
           <Course
