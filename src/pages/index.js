@@ -9,23 +9,6 @@ import Layout from '../components/layout';
 
 export default () => (
   <Layout>
-    <Card title="前端开发" className={styles.Column}>
-      <Row gutter={16}>
-        <Col span={8}>
-          <Course
-            title="李炎恢JavaScript教程 第一季"
-            source="https://study.163.com"
-            sourceTitle="网易云课堂"
-            link="https://study.163.com/course/courseMain.htm?courseId=252008"
-            cover="https://img-ph-mirror.nosdn.127.net/2r4IAK4JnA9s1T8PUaUASg==/6598173676331791619.png?imageView&quality=100&thumbnail=450y250"
-          />
-        </Col>
-        <Col span={8} >
-
-        </Col>
-        <Col span={8} />
-      </Row>
-    </Card>
     <Card title="DevOps">
       <Row gutter={16}>
         <Col span={6}>
@@ -65,6 +48,23 @@ export default () => (
           />
         </Col>
         
+      </Row>
+    </Card>
+    <Card title="前端开发" className={styles.Column}>
+      <Row gutter={16}>
+        <Col span={6}>
+          <Course
+            title="李炎恢JavaScript教程 第一季"
+            source="https://study.163.com"
+            sourceTitle="网易云课堂"
+            link="https://study.163.com/course/courseMain.htm?courseId=252008"
+            cover="https://img-ph-mirror.nosdn.127.net/2r4IAK4JnA9s1T8PUaUASg==/6598173676331791619.png?imageView&quality=100&thumbnail=450y250"
+          />
+        </Col>
+        <Col span={6} >
+
+        </Col>
+        <Col span={6} />
       </Row>
     </Card>
   </Layout>
