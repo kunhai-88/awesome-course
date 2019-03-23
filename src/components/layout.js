@@ -23,6 +23,6 @@ export default compose(
       <Content className={styles.Content}>
          {children}
       </Content>
-      <Footer className={styles.Footer}>Course ©2019 Created by Andy</Footer>
+      <Footer className={styles.Footer}>Course ©2019 Created by Andy | 蜀ICP备18015889号</Footer>
     </Layout>
 ));
